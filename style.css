@@ -41,6 +41,16 @@ h2 {
   font-weight: 700;
   font-size: 14px;
   color: #fff;
+  transition: all 0.3s;
+}
+.button-group .button:hover {
+  border: none;
+  outline: none;
+  padding: 20px 54px;
+  background-color: #000;
+  font-weight: 700;
+  font-size: 14px;
+  color: #fff;
 }
 
 /* tip */
@@ -114,6 +124,13 @@ h2 {
   color: #ff9933;
   background-color: transparent;
   border: 2px solid #ff9933;
+  transition: all 0.3s;
+}
+.nav .button-group .button:hover {
+  padding: 13px 30px;
+  color: #fff;
+  background-color: #7abee9;
+  border: 2px solid #7abee9;
 }
 
 /* ads */
@@ -148,13 +165,7 @@ h2 {
   padding: 40px 0;
 }
 
-.ad-content .button-group .button {
-  padding: 20px 54px;
-  background-color: #ff9933;
-  font-weight: 700;
-  font-size: 14px;
-  color: #fff;
-}
+
 /* about */
 .about > .row {
   width: 1200px;
@@ -206,13 +217,7 @@ h2 {
   padding-bottom: 40px ;
   padding-top: 26px;
 }
-.about-content .button-group .button {
-  padding: 20px 54px;
-  background-color: #ff9933;
-  font-weight: 700;
-  font-size: 14px;
-  color: #fff;
-}
+
 /* job */
 .job {
   background-color: #f9f9f9;
@@ -294,12 +299,17 @@ h2 {
 .volunteer > .row {
   padding-bottom: 90px;
   width: 1200px;
-}
-.volunteer-card {
-  width: 50%;
-  padding: 0 40px;
+  justify-content: space-between;
 }
 
+
+.volunteer-card:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+}
+.volunteer-card:nth-child(2) img {
+  justify-self: flex-end;
+}
 .volunteer-title {
   text-align: end;
   padding-bottom: 40px;
