@@ -62,7 +62,7 @@ h2 {
 .tip-icons {
   vertical-align: center;
 }
-.tip .tip-icons span {
+.tip .tip-icons a {
   font-size: 12px;
   border-radius: 50%;
   color: #272626;
@@ -253,12 +253,11 @@ h2 {
   padding-bottom: 40px;
   margin: 0 15px;
   color: #fff;
-  transition: 0.3s;
+  transition: background-image 2s;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 
 .job-group > .job-item:nth-child(1) {
   background-image: url(/img/asset8.jpg);
@@ -274,6 +273,8 @@ h2 {
 
 .job-group .job-item:nth-child(1):hover {
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/img/asset8.jpg);
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+  background-image: url(/img/asset8.jpg);
 }
 .job-group .job-item:nth-child(2):hover {
   background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/img/asset9.jpg);
@@ -426,12 +427,12 @@ h2 {
   color: #fff;
   line-height: 1.5;
 }
+
 .news-video {
-  height: 650px;
-  background-color: #272626;
-  margin: 0 15px;
-  padding-bottom: 15px ;
+  padding: 40px 15px 15px 15px;
 }
+
+
 .news-group > .news-item:nth-child(1) {
   background-image: url(/img/asset14.jpg);
 }
@@ -452,7 +453,7 @@ h2 {
 .data-content {
   width: 1200px;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .data-content > .data-item {
   text-align: center;
@@ -522,7 +523,7 @@ h2 {
   padding: 45px 0 40px 0;
 }
 
-.footer-icons > span {
+.footer-icons > a {
   display: inline-block;
   text-align: center;
   line-height: 56px;
