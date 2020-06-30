@@ -29,7 +29,7 @@ h2 {
   color: #535353;
 }
 
-.button-group { 
+.button-group {
   display: flex;
   padding: 15px 0;
 }
@@ -82,7 +82,7 @@ h2 {
   height: 20px;
   text-align: center;
   display: inline-block;
-  margin-right:  5px;
+  margin-right: 5px;
 }
 /* nav */
 .nav {
@@ -115,6 +115,7 @@ h2 {
 .list .list-item {
   padding: 15px 0;
   font-weight: 300;
+  cursor: pointer;
 }
 .list .active {
   border-bottom: 2px solid #ff9933;
@@ -165,7 +166,6 @@ h2 {
   padding: 40px 0;
 }
 
-
 /* about */
 .about > .row {
   width: 1200px;
@@ -195,7 +195,7 @@ h2 {
   font-weight: 700;
   line-height: 1.2;
   color: #535353;
-  padding-top: 40px ;
+  padding-top: 40px;
   padding-bottom: 15px;
 }
 .about-content > h3 {
@@ -214,7 +214,7 @@ h2 {
   padding-bottom: 14px;
 }
 .about-content .button-group {
-  padding-bottom: 40px ;
+  padding-bottom: 40px;
   padding-top: 26px;
 }
 
@@ -226,7 +226,7 @@ h2 {
 .job-content {
   width: 1200px;
   text-align: center;
-  padding: 90px 0 ;
+  padding: 90px 0;
 }
 
 .job-content > h2 {
@@ -242,7 +242,7 @@ h2 {
   color: #7abee9;
   line-height: 1.5;
   padding-bottom: 15px;
-} 
+}
 .job-group {
   display: flex;
   justify-content: space-between;
@@ -258,42 +258,42 @@ h2 {
   padding-bottom: 40px;
   margin: 0 15px;
   color: #fff;
-  transition: background-image 2s;
+  transition: background-image 3s;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  cursor: pointer;
 }
 
 .job-group > .job-item:nth-child(1) {
   background-image: url(/img/asset8.jpg);
-  
 }
 .job-group > .job-item:nth-child(2) {
   background-image: url(/img/asset9.jpg);
-  
 }
 .job-group > .job-item:nth-child(3) {
   background-image: url(/img/asset10.jpg);
 }
 
 .job-group .job-item:nth-child(1):hover {
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/img/asset8.jpg);
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-  background-image: url(/img/asset8.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/img/asset8.jpg);
 }
 .job-group .job-item:nth-child(2):hover {
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/img/asset9.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/img/asset9.jpg);
 }
 .job-group .job-item:nth-child(3):hover {
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/img/asset10.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(/img/asset10.jpg);
 }
 
-.job-group .job-item p:hover {
+.job-group .job-item a:hover {
   color: #ff9933;
 }
 /* volunteer */
 .volunteer {
-  padding-top: 90px ;
+  padding-top: 90px;
   flex-wrap: wrap;
 }
 .volunteer > .row {
@@ -301,7 +301,6 @@ h2 {
   width: 1200px;
   justify-content: space-between;
 }
-
 
 .volunteer-card:nth-child(2) {
   display: flex;
@@ -326,7 +325,7 @@ h2 {
   padding-top: 15px;
 }
 .volunteer-card > .button-group {
-  padding:40px 0 0 0 ;
+  padding: 40px 0 0 0;
 }
 
 .volunteer-event {
@@ -360,15 +359,20 @@ h2 {
 .volunteer-event > .button-group > .button {
   margin: 0 15px;
   letter-spacing: 1px;
+  transition: all 0.3;
+}
+
+.volunteer-event > .button-group > .button:hover {
+  color: #fff;
+  background-color: #7abee9;
 }
 /* dogbg */
 .dogBg {
-  background-image: url("/img/asset13.jpg");
+  background-image: url('/img/asset13.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  
 }
 .dogBg > .row {
   width: 100%;
@@ -442,7 +446,6 @@ h2 {
   padding: 40px 15px 15px 15px;
 }
 
-
 .news-group > .news-item:nth-child(1) {
   background-image: url(/img/asset14.jpg);
 }
@@ -451,11 +454,10 @@ h2 {
 }
 /* data */
 .data {
-  background-image: url("/img/asset16.jpg");
+  background-image: url('/img/asset16.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  
 }
 .data > .row {
   padding: 90px 0;
@@ -499,6 +501,7 @@ h2 {
 }
 
 .ins-item {
+  width: 25%;
   height: 100%;
 }
 
@@ -549,11 +552,9 @@ h2 {
 
 .footer-icons > .footer-facebook {
   background-color: #547cd5;
-  
 }
 .footer-icons > .footer-pinterest {
   background-color: #cc3300;
-  
 }
 .footer-icons > .footer-linkedin {
   background-color: #0075b6;
