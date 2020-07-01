@@ -5,11 +5,10 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   font-family: 'Lato', sans-serif;
 }
 
-/* 樣式設定 */
+/* 基本格式樣式設定 */
 .container {
   max-width: 100vw;
 }
@@ -52,7 +51,48 @@ h2 {
   font-size: 14px;
   color: #fff;
 }
+/* call icon */
+.call-icon {
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0 4px 10px 0 #2e3a4659;
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+}
+.call-icon .tip-phone {
+  color: #ff9933;
+  font-size: 50px;
+  margin: auto;
+  text-align: center;
+  line-height: 1.5;
+}
 
+.call-icon i:hover{
+  opacity: 0.7;
+}
+/* toTop */
+.toTop {
+  position: fixed;
+  bottom: 80px;
+  right: 20px;
+  width: 58px;
+  height: 58px;
+  background-color: #ff9933;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 2px;
+}
+.toTop a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  line-height: 58px;
+  color: #fff;
+  text-decoration: none;
+}
 /* tip */
 .tip {
   justify-content: space-between;
@@ -64,6 +104,12 @@ h2 {
   color: #fff;
   font-size: 20px;
   font-weight: 300;
+}
+.tip .tip-phone span a{
+  transition: all 0.3s ease;
+}
+.tip .tip-phone span a:hover{
+  color: #ff9933;
 }
 
 .tip .tip-phone i {
@@ -83,8 +129,16 @@ h2 {
   text-align: center;
   display: inline-block;
   margin-right: 5px;
+  transition: all 0.3s ease;
+}
+.tip .tip-icons a:hover{
+  background-color: #ff9933;
 }
 /* nav */
+.sticky {
+  position: sticky;
+  top: 0px;
+}
 .nav {
   width: 1200px;
   justify-content: space-between;
@@ -117,9 +171,20 @@ h2 {
   font-weight: 300;
   cursor: pointer;
 }
-.list .active {
-  border-bottom: 2px solid #ff9933;
+.list .list-item:visited,
+.list .list-item:hover , 
+.list .list-item:active 
+{
+  padding: 15px 0;
+  font-weight: 300;
+  cursor: pointer;
+  border-bottom: 3px solid #ff9933;
 }
+
+.active {
+  border-bottom: 3px solid #ff9933;
+}
+
 .nav .button-group .button {
   padding: 13px 30px;
   color: #ff9933;
@@ -258,7 +323,7 @@ h2 {
   padding-bottom: 40px;
   margin: 0 15px;
   color: #fff;
-  transition: background-image 3s;
+  transition: all 3s;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -301,8 +366,14 @@ h2 {
   width: 1200px;
   justify-content: space-between;
 }
-
+.volunteer-card:nth-child(1) {
+  width: 470px;
+}
+.volunteer-card:nth-child(1) img{
+  width: 100%;
+}
 .volunteer-card:nth-child(2) {
+  width: 570px;
   display: flex;
   flex-direction: column;
 }
@@ -360,6 +431,7 @@ h2 {
   margin: 0 15px;
   letter-spacing: 1px;
   transition: all 0.3;
+  margin: 0 15px;
 }
 
 .volunteer-event > .button-group > .button:hover {
@@ -548,16 +620,34 @@ h2 {
 
 .footer-icons > .footer-twitter {
   background-color: #00aeef;
+  transition: all .4s ease;
 }
 
 .footer-icons > .footer-facebook {
   background-color: #547cd5;
+  transition: all .4s ease;
 }
 .footer-icons > .footer-pinterest {
   background-color: #cc3300;
+  transition: all .4s ease;
 }
 .footer-icons > .footer-linkedin {
   background-color: #0075b6;
+  transition: all .4s ease;
+}
+
+.footer-icons > .footer-twitter:hover {
+  background-color: #00aeefcc;
+}
+
+.footer-icons > .footer-facebook:hover {
+  background-color: #547cd5cc;
+}
+.footer-icons > .footer-pinterest:hover {
+  background-color: #cc3300cc;
+}
+.footer-icons > .footer-linkedin:hover {
+  background-color: #0075b6cc;
 }
 
 .footer-descriptions {
@@ -570,4 +660,14 @@ h2 {
 .footer-descriptions i {
   color: #ff9933;
   margin-right: 8px;
+}
+
+.footer-descriptions a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.footer-descriptions a:hover{
+  color: #ff9933;
 }
