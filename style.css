@@ -135,9 +135,10 @@ h2 {
   background-color: #ff9933;
 }
 /* nav */
-.sticky {
+nav {
   position: sticky;
   top: 0px;
+  background-color: #fff;
 }
 .nav {
   width: 1200px;
