@@ -137,6 +137,7 @@ h2 {
 /* nav */
 nav {
   position: sticky;
+  z-index: 100;
   top: 0px;
   background-color: #fff;
 }
