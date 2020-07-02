@@ -203,7 +203,7 @@ nav {
 
 /* ads */
 .ad {
-  background-image: url(/img/asset7.jpg);
+  background-image: url(img/asset7.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -333,26 +333,26 @@ nav {
 }
 
 .job-group > .job-item:nth-child(1) {
-  background-image: url(/img/asset8.jpg);
+  background-image: url(img/asset8.jpg);
 }
 .job-group > .job-item:nth-child(2) {
-  background-image: url(/img/asset9.jpg);
+  background-image: url(img/asset9.jpg);
 }
 .job-group > .job-item:nth-child(3) {
-  background-image: url(/img/asset10.jpg);
+  background-image: url(img/asset10.jpg);
 }
 
 .job-group .job-item:nth-child(1):hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/img/asset8.jpg);
+    url(img/asset8.jpg);
 }
 .job-group .job-item:nth-child(2):hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/img/asset9.jpg);
+    url(img/asset9.jpg);
 }
 .job-group .job-item:nth-child(3):hover {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url(/img/asset10.jpg);
+    url(img/asset10.jpg);
 }
 
 .job-group .job-item a:hover {
@@ -403,7 +403,7 @@ nav {
 
 .volunteer-event {
   width: 100%;
-  background-image: url(/img/asset11.jpg);
+  background-image: url(img/asset11.jpg);
   padding: 60px 0;
   text-align: center;
 }
@@ -442,7 +442,7 @@ nav {
 }
 /* dogbg */
 .dogBg {
-  background-image: url('/img/asset13.jpg');
+  background-image: url('img/asset13.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -521,14 +521,14 @@ nav {
 }
 
 .news-group > .news-item:nth-child(1) {
-  background-image: url(/img/asset14.jpg);
+  background-image: url(img/asset14.jpg);
 }
 .news-group > .news-item:nth-child(2) {
-  background-image: url(/img/asset15.jpg);
+  background-image: url(img/asset15.jpg);
 }
 /* data */
 .data {
-  background-image: url('/img/asset16.jpg');
+  background-image: url('img/asset16.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
